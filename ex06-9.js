@@ -3,6 +3,7 @@ function txtchange1(){
  
 }
 
-function imagchange1(){
-  document.getElementById('logo').src ='./image/bulbon.gif';
+function imgchange1(){
+  document.getElementById('logo').src =
+    './image/bulbon.gif';
 }
