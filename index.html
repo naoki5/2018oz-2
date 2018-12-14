@@ -12,8 +12,10 @@
   <script src="ex06-10.js"></script>
    <script src="ex06-11.js"></script>
   <script src="ex06-12.js"></script>
-    <script src="ex06-13.js"></script>
+   <script src="ex06-13.js"></script>
   <script src="ex09-2.js"></script>
+  <script src="ex07-1.js"></script>
+  <script src="ex07-3.js"></script>
 
 </head>
  <body>        
@@ -74,6 +76,7 @@
      <br>
      <input type="text" name="moji" size="30" value="">
 </form>
+<br>
 <form>
   <input type="button" value="Timer"
          onclick="setTimeout('mes()',3000)">
@@ -87,33 +90,38 @@
   <br>
   <input type="text" name="moji2" size="30" value="">
 </form>
-<h1>
-  タイマーイベントによる実行06-12
-</h1>
-     <div id="image2">
-     
-     <input type="button" value="3秒で変更"
-            onclick="ThreeSecChange();">
-     
-     <img src='./image/josai.png' id="gazou" alt="josai Logo"></div>
-   </div>
- <h1>
-  タイマーイベントによる実行06-13
-<div id="image3">
-     
-     <input type="button" value="3秒で変更"
-            onclick="ThreeSecChange();">
-     
-     <img src='./image/josai.png' id="gazou2" alt="josai Logo"></div>
-   </div>
+<br>
+ <h1>タイマーイベントによる実行6-12</h1>
+  <input type="button" value="3秒で変更" onclick="ThreeSecChange();">
+  <img src='./image/bulbon 2.gif' id="logo2" alt="Josai Logo">
+  <br>
+<h1>タイマーイベントによる実行の応用6-13</h1>
+  <div id="back">
+    <input type="button" value="変更後3秒でまた戻る" onclick="ChangeImageAndBack();">
 
-<h1>
-  JavvaScriptの変数とデバッガを理解09-2</h1>
+    <img src='./image/josai.png' id="img13" alt="Josai Logo" class="imagechange">
+
+  </div>
+  <br>
+ <h1>JavvaScriptの変数とデバッガを理解09-2</h1>
 <p>
   下のボタンを押すと数字が表示されます
 </p>
 <p>
   <input type="button" value="実行ボタン" onclick="addCount()">
 </p>
+<h1>
+  テキスト入力の練習7-1</h1>
+  <input type="button" value="あいさつ" onclick="sayhello71();">
+<p>
+  誰？<input type="text"id="who71"></p>
   </body>
+<h1>
+  足し算</h1>
+<p>
+  <input type="text" id="input1">+<input type="text" id="input2">
+  <input type="button" value="計算" onclick="add();">
+</p>
+
+
 </html>
